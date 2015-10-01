@@ -17,9 +17,10 @@ public class User implements IUser {
 	private String language;
 
 	
-	public User()
+	public User(String name, String language)
 	{
-		
+		this.name = name;
+		this.language = language;
 	}
 	
 	@Override
