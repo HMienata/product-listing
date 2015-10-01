@@ -61,6 +61,7 @@ public class GitLab implements EntryPoint {
 
 			@Override
 			public void onSuccess(List<IUser> result) {
+				System.out.print("Turtles");
 				displayUsers(result);
 				
 			}});
